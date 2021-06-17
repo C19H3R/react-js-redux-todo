@@ -19,7 +19,7 @@ function TodoForm({ addTodo }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (title == "") {
+    if (title === "") {
       return alert("Please ADD a todo");
     }
 
